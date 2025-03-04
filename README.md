@@ -10,4 +10,17 @@ Through extensive experiments, ResNet50 emerged as the best-performing model, ac
 ### Sources
 - NIH Chest X-ray Dataset (National Institutes of Health, 2017)
 - Stanford PNA (Pneumonia) Dataset (CheXpert from Stanford University, 2019)
+### Training Size
+- 38,029 normal images from NIH data set
+- 6,750 pneumonia images from NIH and Stanford
+### Classes
+- Nomal (0)
+-  PNA (1)
+### Preprocessing
+- Images resized to 224×224
+- Pixel values scaled to [0,1]
+- Data Augmentation: rotation, shift, zoom, horizontal flip
+
+
+
 
