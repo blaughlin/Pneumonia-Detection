@@ -21,6 +21,33 @@ Through extensive experiments, ResNet50 emerged as the best-performing model, ac
 - Pixel values scaled to [0,1]
 - Data Augmentation: rotation, shift, zoom, horizontal flip
 
+## Model Selection & Training
+### Resnet50
+- A deep model with skip connections, making training more stable and accurate.
+### Densenet121
+- Leverages feature reuse, potentially better for medical images.
+### Custom CNN (Baseline Model)
+- Built from scratch to see if transfer learning is necessary.
+
+All models utilized class weights for uneven distrubtion in images.
+### Fine-Tuning Strategy
+- Unfroze last 20 and 50 layers ResNet50 and DenseNet121 for fine-tuning.
+- Adjusted learning rate (1e-5) to retain pre-trained ImageNet knowledge.
+- Used Early Stopping & LR Reduction to prevent overfitting.
+
+## Model Performance Comparison
+	| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+  
+
+
+
+
+
+
 
 
 
