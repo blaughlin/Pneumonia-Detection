@@ -1,4 +1,4 @@
-# Pneumonia Detection with Deep Learning!
+# Pneumonia Detection with Deep Learning
 Deep learning for pneumonia detection 
 
 ## Overview
