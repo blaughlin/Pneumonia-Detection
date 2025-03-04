@@ -36,10 +36,14 @@ All models utilized class weights for uneven distrubtion in images.
 - Used Early Stopping & LR Reduction to prevent overfitting.
 
 ## Model Performance Comparison
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Metric           | Fine-Tuned ResNet50 (Best Model) | Fine-Tuned DenseNet121   | Baseline CNN |
+| :---             |    :----:                        | ---:                     | ---:         |
+| Precision (PPV)  | 99.05%                           | 79.26%                   | 79.11%       |
+| Sensitivity      | 87.68%                           | 92.25%                   | 90.85%       |
+| Specificity      | 99.85%                           | 95.74%                   | 95.74%       |
+| F1 Score         | 92.87%                           | 85.02%                   | 84.57%       |
+
+
   
 
 
