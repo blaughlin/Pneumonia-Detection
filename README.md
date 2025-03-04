@@ -7,5 +7,7 @@ This project applies deep learning to detect pneumonia from chest X-ray images u
 Through extensive experiments, ResNet50 emerged as the best-performing model, achieving high precision and the lowest false alarm rate, making it ideal for real-world medical applications.
 
 ## Dataset
-
+### Sources
+- NIH Chest X-ray Dataset (National Institutes of Health, 2017)
+- Stanford PNA (Pneumonia) Dataset (CheXpert from Stanford University, 2019)
 
