@@ -43,6 +43,19 @@ All models utilized class weights for uneven distrubtion in images.
 | Specificity      | 99.85%                           | 95.74%                   | 95.74%       |
 | F1 Score         | 92.87%                           | 85.02%                   | 84.57%       |
 
+### Key Takeaways 
+- ResNet50 has the highest Precision (99.05%) → Best at minimizing false alarms
+- DenseNet121 has the highest Sensitivity (92.25%) → Best at detecting pneumonia cases.
+- Baseline CNN performed decently but did not outperform transfer learning models.
+
+## Final Model: ResNet50 Confusion Matrix
+![Confusion Matrix](Confusion_1_3.png)
+
+## Conclusion
+This project demonstrates how deep learning can assist in pneumonia detection from chest X-rays. Through fine-tuning and decision threshold adjustments, I built a clinically relevant model with high accuracy and reliability. The final ResNet50 model balances Sensitivity and Precision, making it ideal for real-world deployment in medical imaging.
+
+
+
 
   
 
