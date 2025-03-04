@@ -36,11 +36,10 @@ All models utilized class weights for uneven distrubtion in images.
 - Used Early Stopping & LR Reduction to prevent overfitting.
 
 ## Model Performance Comparison
-	| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
   
 
 
